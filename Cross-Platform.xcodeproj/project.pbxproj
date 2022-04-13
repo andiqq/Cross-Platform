@@ -11,6 +11,23 @@
 		E182B9462806BA0A0001D6D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B9452806BA0A0001D6D2 /* ContentView.swift */; };
 		E182B9482806BA0D0001D6D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E182B9472806BA0D0001D6D2 /* Assets.xcassets */; };
 		E182B94B2806BA0D0001D6D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E182B94A2806BA0D0001D6D2 /* Preview Assets.xcassets */; };
+		E182B9542806BABD0001D6D2 /* insectData.json in Resources */ = {isa = PBXBuildFile; fileRef = E182B9532806BABD0001D6D2 /* insectData.json */; };
+		E182B9562806BAE30001D6D2 /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B9552806BAE30001D6D2 /* Insect.swift */; };
+		E182B9582806BB810001D6D2 /* InsectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B9572806BB810001D6D2 /* InsectData.swift */; };
+		E182B95A2806BC9E0001D6D2 /* InsectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B9592806BC9E0001D6D2 /* InsectCellView.swift */; };
+		E182B95E2806BFC10001D6D2 /* InsectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B95D2806BFC10001D6D2 /* InsectDetailView.swift */; };
+		E182B9602806C0BD0001D6D2 /* InsectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B95F2806C0BD0001D6D2 /* InsectListView.swift */; };
+		E182B9682806F4BC0001D6D2 /* macOS_Cross_PlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B9672806F4BC0001D6D2 /* macOS_Cross_PlatformApp.swift */; };
+		E182B96A2806F4BC0001D6D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B9692806F4BC0001D6D2 /* ContentView.swift */; };
+		E182B96C2806F4C30001D6D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E182B96B2806F4C30001D6D2 /* Assets.xcassets */; };
+		E182B96F2806F4C30001D6D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E182B96E2806F4C30001D6D2 /* Preview Assets.xcassets */; };
+		E182B9742806F5050001D6D2 /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B9552806BAE30001D6D2 /* Insect.swift */; };
+		E182B9752806F5050001D6D2 /* InsectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B9572806BB810001D6D2 /* InsectData.swift */; };
+		E182B9762806F5050001D6D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E182B9472806BA0D0001D6D2 /* Assets.xcassets */; };
+		E182B9772806F5050001D6D2 /* InsectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B95D2806BFC10001D6D2 /* InsectDetailView.swift */; };
+		E182B9792806F5250001D6D2 /* MacInsectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B9782806F5250001D6D2 /* MacInsectCellView.swift */; };
+		E182B97B2806F6020001D6D2 /* MacInsectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182B97A2806F6020001D6D2 /* MacInsectListView.swift */; };
+		E182B97C2806FDDC0001D6D2 /* insectData.json in Resources */ = {isa = PBXBuildFile; fileRef = E182B9532806BABD0001D6D2 /* insectData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,10 +36,31 @@
 		E182B9452806BA0A0001D6D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E182B9472806BA0D0001D6D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E182B94A2806BA0D0001D6D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E182B9532806BABD0001D6D2 /* insectData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = insectData.json; sourceTree = "<group>"; };
+		E182B9552806BAE30001D6D2 /* Insect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect.swift; sourceTree = "<group>"; };
+		E182B9572806BB810001D6D2 /* InsectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectData.swift; sourceTree = "<group>"; };
+		E182B9592806BC9E0001D6D2 /* InsectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectCellView.swift; sourceTree = "<group>"; };
+		E182B95D2806BFC10001D6D2 /* InsectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectDetailView.swift; sourceTree = "<group>"; };
+		E182B95F2806C0BD0001D6D2 /* InsectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectListView.swift; sourceTree = "<group>"; };
+		E182B9652806F4BC0001D6D2 /* macOS-Cross-Platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS-Cross-Platform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E182B9672806F4BC0001D6D2 /* macOS_Cross_PlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_Cross_PlatformApp.swift; sourceTree = "<group>"; };
+		E182B9692806F4BC0001D6D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E182B96B2806F4C30001D6D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E182B96E2806F4C30001D6D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E182B9702806F4C30001D6D2 /* macOS_Cross_Platform.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS_Cross_Platform.entitlements; sourceTree = "<group>"; };
+		E182B9782806F5250001D6D2 /* MacInsectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacInsectCellView.swift; sourceTree = "<group>"; };
+		E182B97A2806F6020001D6D2 /* MacInsectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacInsectListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E182B93D2806BA0A0001D6D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E182B9622806F4BC0001D6D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				E182B9422806BA0A0001D6D2 /* Cross-Platform */,
+				E182B9662806F4BC0001D6D2 /* macOS-Cross-Platform */,
 				E182B9412806BA0A0001D6D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				E182B9402806BA0A0001D6D2 /* Cross-Platform.app */,
+				E182B9652806F4BC0001D6D2 /* macOS-Cross-Platform.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +91,13 @@
 		E182B9422806BA0A0001D6D2 /* Cross-Platform */ = {
 			isa = PBXGroup;
 			children = (
+				E182B9522806BA450001D6D2 /* Resources */,
+				E182B9512806BA2F0001D6D2 /* Models */,
 				E182B9432806BA0A0001D6D2 /* Cross_PlatformApp.swift */,
 				E182B9452806BA0A0001D6D2 /* ContentView.swift */,
+				E182B9592806BC9E0001D6D2 /* InsectCellView.swift */,
+				E182B95D2806BFC10001D6D2 /* InsectDetailView.swift */,
+				E182B95F2806C0BD0001D6D2 /* InsectListView.swift */,
 				E182B9472806BA0D0001D6D2 /* Assets.xcassets */,
 				E182B9492806BA0D0001D6D2 /* Preview Content */,
 			);
@@ -63,6 +108,45 @@
 			isa = PBXGroup;
 			children = (
 				E182B94A2806BA0D0001D6D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E182B9512806BA2F0001D6D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E182B9552806BAE30001D6D2 /* Insect.swift */,
+				E182B9572806BB810001D6D2 /* InsectData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E182B9522806BA450001D6D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E182B9532806BABD0001D6D2 /* insectData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E182B9662806F4BC0001D6D2 /* macOS-Cross-Platform */ = {
+			isa = PBXGroup;
+			children = (
+				E182B9672806F4BC0001D6D2 /* macOS_Cross_PlatformApp.swift */,
+				E182B9692806F4BC0001D6D2 /* ContentView.swift */,
+				E182B96B2806F4C30001D6D2 /* Assets.xcassets */,
+				E182B9702806F4C30001D6D2 /* macOS_Cross_Platform.entitlements */,
+				E182B96D2806F4C30001D6D2 /* Preview Content */,
+				E182B9782806F5250001D6D2 /* MacInsectCellView.swift */,
+				E182B97A2806F6020001D6D2 /* MacInsectListView.swift */,
+			);
+			path = "macOS-Cross-Platform";
+			sourceTree = "<group>";
+		};
+		E182B96D2806F4C30001D6D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E182B96E2806F4C30001D6D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -87,6 +171,23 @@
 			productReference = E182B9402806BA0A0001D6D2 /* Cross-Platform.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E182B9642806F4BC0001D6D2 /* macOS-Cross-Platform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E182B9712806F4C30001D6D2 /* Build configuration list for PBXNativeTarget "macOS-Cross-Platform" */;
+			buildPhases = (
+				E182B9612806F4BC0001D6D2 /* Sources */,
+				E182B9622806F4BC0001D6D2 /* Frameworks */,
+				E182B9632806F4BC0001D6D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macOS-Cross-Platform";
+			productName = "macOS-Cross-Platform";
+			productReference = E182B9652806F4BC0001D6D2 /* macOS-Cross-Platform.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +199,9 @@
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					E182B93F2806BA0A0001D6D2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					E182B9642806F4BC0001D6D2 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -116,6 +220,7 @@
 			projectRoot = "";
 			targets = (
 				E182B93F2806BA0A0001D6D2 /* Cross-Platform */,
+				E182B9642806F4BC0001D6D2 /* macOS-Cross-Platform */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +232,18 @@
 			files = (
 				E182B94B2806BA0D0001D6D2 /* Preview Assets.xcassets in Resources */,
 				E182B9482806BA0D0001D6D2 /* Assets.xcassets in Resources */,
+				E182B9542806BABD0001D6D2 /* insectData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E182B9632806F4BC0001D6D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E182B96F2806F4C30001D6D2 /* Preview Assets.xcassets in Resources */,
+				E182B9762806F5050001D6D2 /* Assets.xcassets in Resources */,
+				E182B96C2806F4C30001D6D2 /* Assets.xcassets in Resources */,
+				E182B97C2806FDDC0001D6D2 /* insectData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +255,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				E182B9462806BA0A0001D6D2 /* ContentView.swift in Sources */,
+				E182B95E2806BFC10001D6D2 /* InsectDetailView.swift in Sources */,
+				E182B9602806C0BD0001D6D2 /* InsectListView.swift in Sources */,
+				E182B9562806BAE30001D6D2 /* Insect.swift in Sources */,
+				E182B95A2806BC9E0001D6D2 /* InsectCellView.swift in Sources */,
 				E182B9442806BA0A0001D6D2 /* Cross_PlatformApp.swift in Sources */,
+				E182B9582806BB810001D6D2 /* InsectData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E182B9612806F4BC0001D6D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E182B96A2806F4BC0001D6D2 /* ContentView.swift in Sources */,
+				E182B9742806F5050001D6D2 /* Insect.swift in Sources */,
+				E182B9682806F4BC0001D6D2 /* macOS_Cross_PlatformApp.swift in Sources */,
+				E182B9752806F5050001D6D2 /* InsectData.swift in Sources */,
+				E182B9792806F5250001D6D2 /* MacInsectCellView.swift in Sources */,
+				E182B9772806F5050001D6D2 /* InsectDetailView.swift in Sources */,
+				E182B97B2806F6020001D6D2 /* MacInsectListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +453,64 @@
 			};
 			name = Release;
 		};
+		E182B9722806F4C30001D6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS-Cross-Platform/macOS_Cross_Platform.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macOS-Cross-Platform/Preview Content\"";
+				DEVELOPMENT_TEAM = 7K2HLWAMJ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.plagens.macOS-Cross-Platform";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E182B9732806F4C30001D6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS-Cross-Platform/macOS_Cross_Platform.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macOS-Cross-Platform/Preview Content\"";
+				DEVELOPMENT_TEAM = 7K2HLWAMJ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.plagens.macOS-Cross-Platform";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +528,15 @@
 			buildConfigurations = (
 				E182B94F2806BA0D0001D6D2 /* Debug */,
 				E182B9502806BA0D0001D6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E182B9712806F4C30001D6D2 /* Build configuration list for PBXNativeTarget "macOS-Cross-Platform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E182B9722806F4C30001D6D2 /* Debug */,
+				E182B9732806F4C30001D6D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
